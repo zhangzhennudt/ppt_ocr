@@ -12,9 +12,9 @@ import os
 
 
 # 定义常量
-APP_ID = '9851066'
-API_KEY = 'LUGBatgyRGoerR9FZbV4SQYk'
-SECRET_KEY = 'fB2MNz1c2UHLTximFlC4laXPg7CVfyjV'
+APP_ID = 'your id'
+API_KEY = 'your api key'
+SECRET_KEY = 'your secret key'
 
 # 初始化AipFace对象
 aipOcr = AipOcr(APP_ID, API_KEY, SECRET_KEY)
@@ -55,7 +55,7 @@ def get_word_from_image(path,txtname):
 
 
 
-path="pptimage"
+path="your ppt image path"
 txtname = "result.txt"
 get_word_from_image(path,txtname)
 
